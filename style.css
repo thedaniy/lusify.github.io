@@ -168,19 +168,21 @@ h2{
 
 
 
+
 @media (max-width: 768px) {
 
   body {
-    font-size: 14px;
-    padding: 0 10px;
+    padding: 0;
+    margin: 0;
     overflow-x: hidden;
   }
 
   .header {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: right;
+    padding: 10px;
   }
 
   .img1 {
@@ -190,17 +192,17 @@ h2{
 
   .tele {
     float: none;
-    display: block;
-    text-align: center;
-    margin: 10px 0;
-    width: auto;
+    width: 100%;
+    text-align: right;
+    padding: 5px 0;
   }
 
   .button {
     float: none;
     width: 100%;
     margin: 10px 0;
-    font-size: 1rem;
+    padding: 10px;
+    font-size: 16px;
   }
 
   #nav > ul {
@@ -208,12 +210,21 @@ h2{
     flex-direction: column;
     padding: 0;
     margin: 0;
+    width: 100%;
+    background-color: black;
   }
 
   #nav > ul > li {
     float: none;
-    text-align: center;
-    padding: 10px 0;
+    text-align: right;
+    width: 100%;
+  }
+
+  #nav > ul > li > a {
+    display: block;
+    padding: 15px;
+    font-size: 16px;
+    border-bottom: 1px solid #333;
   }
 
   .baner {
@@ -221,52 +232,57 @@ h2{
     height: auto;
   }
 
+  .table1,
   table {
-    width: 100%;
-    font-size: 12px;
+    width: 100% !important;
     margin: 0 auto;
+    border: none;
   }
 
   .img2 {
-    width: 100%;
+    width: 100% !important;
     height: auto;
   }
 
-  .h3 {
-    width: 100% !important;
+  .h3,
+  .h {
+    width: 100%;
     font-size: 18px;
     padding: 10px;
-  }
-
-  .d {
-    width: 100% !important;
-    box-shadow: none;
-  }
-
-  .footer,
-  .footer-l,
-  .footer-f {
-    text-align: center !important;
-    width: 100%;
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .clasax {
-    float: none;
-    margin: 0 auto;
+    text-align: center;
   }
 
   marquee {
     display: flex;
     overflow-x: auto;
     gap: 10px;
+    padding: 10px 0;
   }
 
   marquee img {
     width: 200px;
     height: auto;
     flex-shrink: 0;
+  }
+
+  .footer,
+  .footer-f,
+  .footer-l {
+    text-align: right;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .clasax {
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2, h3 {
+    font-size: 16px;
+    text-align: right;
   }
 
 }
