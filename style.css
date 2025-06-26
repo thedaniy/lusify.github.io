@@ -95,6 +95,8 @@ a{
 	width: 100% !important;
 	background-color: rgb(65, 51, 92);
 	border: none;
+	border-collapse: collapse;
+  table-layout: fixed;
 }
 .h1{
 	text-align: center;
