@@ -1,0 +1,35 @@
+<html>
+    <head>
+		<meta charset="utf-8">
+        <title>ثبت نام و عضویت</title>
+		<link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+		<div> 
+			<form action="index.php" method="post" align="center" id="registerForm">
+			 <h1>ثبت نام</h1>
+			<input type="text" id="firstname"name="firstname" placeholder="نام- نام خانوادگی">
+            <br>
+			<input type="number" id="number "name="number" placeholder="تلفن">
+			<br>
+			<input type="text"id="email"name="email" placeholder="ایمیل">
+			<br>
+			<input type="password"id="password"name="password" placeholder="رمز">
+		     <br>
+			<input type="submit" value="ثبت" class=b >
+		<script>
+    document.getElementById("registerForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // جلوگیری از ارسال فرم به سرور
+
+      // نمایش پیغام موفقیت و دکمه OK
+      if (confirm("ثبت‌نام با موفقیت انجام شد!")) {
+        window.location.href = "university.html"; // تغییر مسیر به صفحه اصلی
+      }
+    });
+  </script>
+				
+		</form>
+		</div>
+       
+    </body>
+</html>

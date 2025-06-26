@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #122087;
+}
+div{
+	width: 374px;
+	height: 445px;
+	background-color: #8780da;
+	margin: auto;
+	margin-top:130px;
+	text-align: center;
+	padding: 10px 0;
+	border-radius: 60px;
+}
+input[placeholder]{
+	font-size: 20px;
+	direction: rtl;
+}
+input{
+	padding: 15px 26px;
+	margin: 5px 0;
+	border: none;
+     border-radius: 5px;
+}
+input[type=submit]{
+	border: none;
+	background-color: #C5C5C5;
+	padding: 19px 85px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.b:hover{
+	background-color: black;
+	color: white;
+}
+.b:active{
+	background-color: aquamarine;
+	color: black;
+}

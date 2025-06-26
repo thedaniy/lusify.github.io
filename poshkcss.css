@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.float{
+	text-align: center;
+	 padding: 70px; 
+	 margin: 70; 
+	 float: right;
+	display:inline-table;
+	
+	
+}
+ .image-container {
+      white-space: nowrap; /* جلوگیری از شکستن خط */
+	 text-align: center;
+    }
+    .image-container img {
+      display: inline-block;
+      margin-right: 10px; /* فاصله بین عکس‌ها */
+      width: 100px;
+      height: auto;
+    }
+

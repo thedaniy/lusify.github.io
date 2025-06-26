@@ -1,0 +1,165 @@
+body{
+	background: url();
+	background-size: 1500px 950px;
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+.header{
+    background-color: gray;
+	text-align: right;
+}
+.img1{
+    width: 200px;
+    height: 50px;
+	border-collapse: 30px;
+}
+.baner
+{
+width: 1600px;
+	height: 350px;
+}
+*{
+			margin: 0;
+			padding: 0;
+}
+
+.clear-fix{
+			clear: both;
+}
+
+a{
+			text-decoration: none;
+}
+
+#nav{
+	        background-color:  black;
+}
+#nav ul{
+			list-style: none;
+}
+
+#nav li{
+			position: relative;
+}
+
+#nav > ul > li{
+		float: right;	
+}
+
+#nav > ul > li > a{
+			display: inline-block;
+			color: white;
+			padding:15px 10px;
+			line-height: 30px;
+	font-size: 20px;
+}
+
+#nav > ul > li:hover > a{
+			background-color: #4a4a4a;
+			color: white;
+}
+		
+#nav .sub-menu{
+			display: none;
+			position: absolute;			
+}
+
+#nav .sub-menu > li > a{
+			display: block;
+			width: 120px;
+			background-color:rgb(44 69 155) ;
+			color: white;
+			padding: 5px 10px;
+}
+
+#nav .sub-menu > li:hover > a{
+			background-color: black;
+}
+
+#nav li:hover > .sub-menu{
+			display: block;
+}
+#nav.sub-menu > li > .sub-menu{
+			left: 140px;
+			top: 0;
+}
+.clasax{
+	text-align: center;
+	 padding: 1px; 
+	 margin: auto; 
+	 float: right;
+}
+.table1{
+	margin: 450px;
+	height: 400px;
+	width: 600px;
+	background-color: rgb(65, 51, 92);
+}
+.h1{
+	text-align: center;
+}
+.button{
+	background-color:darkgray;
+	width: 100px;
+	padding: 10px;
+	float: left;
+	
+}
+.h1{
+	text-align: center;
+}
+.tele{
+	width: 30px;
+	padding: 10px;
+	float: left;
+}
+.h{
+	color: white;
+	background-color: #2C459C;
+	padding: 8px 0;
+
+	
+}
+a:hover{
+	color: black;
+	background-color: skyblue;
+}
+.img2{
+	height: 450px;
+	width: 450px;
+}
+h2{
+	color: black;
+}
+.h3{
+	background-color: #2C459C;
+	color: white;
+	padding: 20px;
+	width: 1510px;
+}
+.t{
+	color: black;
+    text-shadow: 0px 5px 10px blue;
+    cursor: grab;
+} 
+.d{
+	
+ box-shadow: 50px 5px 10px blue;
+	width: 1390px;
+}
+
+.footer{
+	color: black;
+    background-color:  gray;
+}
+.footer-f{
+	text-align: right;
+	color: black;
+    background-color: #2C459C;
+}
+.footer-l{
+	text-align: left;
+	color: black;
+    background-color: gray;
+	padding-left: 3px;
+}
