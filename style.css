@@ -15,8 +15,8 @@ body{
 }
 .baner
 {
-width: 1600px;
-	height: 350px;
+width: 100% !important;
+	height: auto;
 }
 *{
 			margin: 0;
@@ -90,9 +90,9 @@ a{
 	 float: right;
 }
 .table1{
-	margin: 450px;
+	margin: auto;
 	height: 400px;
-	width: 600px;
+	width: 100% !important;
 	background-color: rgb(65, 51, 92);
 }
 .h1{
@@ -135,7 +135,7 @@ h2{
 	background-color: #2C459C;
 	color: white;
 	padding: 20px;
-	width: 1510px;
+	width: 100%;
 }
 .t{
 	color: black;
@@ -172,6 +172,7 @@ h2{
 @media (max-width: 768px) {
 
   body {
+    text-align: right;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -181,7 +182,6 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    text-align: right;
     padding: 10px;
   }
 
@@ -200,31 +200,9 @@ h2{
   .button {
     float: none;
     width: 100%;
-    margin: 10px 0;
+    margin-top: 10px;
     padding: 10px;
     font-size: 16px;
-  }
-
-  #nav > ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    background-color: black;
-  }
-
-  #nav > ul > li {
-    float: none;
-    text-align: right;
-    width: 100%;
-  }
-
-  #nav > ul > li > a {
-    display: block;
-    padding: 15px;
-    font-size: 16px;
-    border-bottom: 1px solid #333;
   }
 
   .baner {
@@ -232,7 +210,13 @@ h2{
     height: auto;
   }
 
-  .table1,
+  .h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+  }
+
   table {
     width: 100% !important;
     margin: 0 auto;
@@ -240,11 +224,15 @@ h2{
   }
 
   .img2 {
-    width: 100% !important;
+    width: 100%;
     height: auto;
   }
 
-  .h3,
+  h2 {
+    font-size: 14px;
+    text-align: center;
+  }
+
   .h {
     width: 100%;
     font-size: 18px;
@@ -260,7 +248,7 @@ h2{
   }
 
   marquee img {
-    width: 200px;
+    width: 250px;
     height: auto;
     flex-shrink: 0;
   }
@@ -268,21 +256,24 @@ h2{
   .footer,
   .footer-f,
   .footer-l {
-    text-align: right;
-    font-size: 14px;
-    padding: 10px;
     width: 100%;
-  }
-
-  .clasax {
-    float: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  h2, h3 {
-    font-size: 16px;
     text-align: right;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .footer-l {
+    background-color: #ddd;
+  }
+
+  .footer-f {
+    background-color: #ccc;
+  }
+
+  .h1 {
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 0;
   }
 
 }
