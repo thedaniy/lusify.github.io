@@ -219,15 +219,22 @@ h2{
   }
 
   table {
-    width: 100% !important;
-    margin: 0 auto;
-    border: none;
-  }
+  width: 100% !important;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
 
-  .img2 {
-    width: 100%;
-    height: auto;
-  }
+table td {
+  width: 33.33%;
+  padding: 5px;
+}
+
+.img2 {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
   h2 {
     font-size: 14px;
