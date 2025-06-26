@@ -90,7 +90,7 @@ a{
 	 float: right;
 }
 .table1{
-	margin: auto;
+	margin:0 auto;
 	height: 400px;
 	width: 100% !important;
 	background-color: rgb(65, 51, 92);
