@@ -89,11 +89,12 @@ a{
 	 margin: auto; 
 	 float: right;
 }
-.table1{
+.table{
 	margin:0 auto;
 	height: 400px;
 	width: 100% !important;
 	background-color: rgb(65, 51, 92);
+	border: none;
 }
 .h1{
 	text-align: center;
