@@ -163,3 +163,88 @@ h2{
     background-color: gray;
 	padding-left: 3px;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img1 {
+    width: 120px;
+    height: auto;
+  }
+
+  .tele {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .button {
+    margin: 10px auto;
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  .h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  #nav ul {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #nav ul li {
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .baner {
+    width: 100%;
+    height: auto;
+  }
+
+  table {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .img2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-slider,
+  marquee {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .product-slider img,
+  marquee img {
+    width: 250px;
+    flex-shrink: 0;
+  }
+
+  .footer h1,
+  .footer h2,
+  .footer h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+}
