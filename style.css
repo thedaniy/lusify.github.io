@@ -287,3 +287,37 @@ table td {
   }
 
 }
+
+
+
+
+
+
+.search-box {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 10px;
+}
+
+.search-box input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  background-color: #2C459C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #732d91;
+}
